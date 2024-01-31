@@ -1,0 +1,22 @@
+{
+  "main": "index.html",
+  "name": "Dashboard",
+  "description": "Woland's Dashboard",
+  "version": "0.1.0",
+  "window": {
+    "title": "Woland's Dashboard",
+    "icon": "link.png",
+    "frame": false,
+    "width": 800,
+    "height": 600,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 300,
+    "max_width": 800,
+    "max_height": 600,
+    "fullscreen": false
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
