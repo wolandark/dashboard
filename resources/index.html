@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs sample app</title>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Dashboard</h1>
+        <div class="button-container">
+          <button class="button-primary" onclick="launchGithub();">Github</button>
+          <button class="button-primary" onclick="launchMySites();" >Web Sites</button>
+          <button class="button-primary" onclick="launchTelegram();">Telegram</button>
+          <button class="button-primary" onclick="launchBrowser();">Browser</button>
+          <button class="button-primary" onclick="launchEmail();">Email</button>
+          <button class="button-primary" onclick="launchMusic();">Music</button>
+          <button class="button-primary" onclick="launchTask();">Tasks</button>
+          <button class="button-primary" onclick="launchPacman();">Pacman TUI</button>
+        </div>
+      </div>
+    </div>
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+    <script src="js/neutralino.js"></script>
+    <!-- Your app's source files -->
+    <script src="js/main.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
