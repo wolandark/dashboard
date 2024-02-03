@@ -2,7 +2,11 @@
 Simple desktop dashboard / welcome app using Neutralinojs
 
 # Usage (Linux)
-Download the gzip archive from releases and execute the binary
+Download the gzip archive from releases and execute the binary <br>
+
+### Dependency
+The only dependency is `webkit2gtk`<br>
+`pacman -S webkit2gtk`
 
 # Other OSs
 The `dist` directory includes the following binaries for Linux, Mac and Windows:
