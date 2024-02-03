@@ -1,4 +1,3 @@
 # dashboard
-Simple desktop dashboard / welcome app using nw.js
+Simple desktop dashboard / welcome app using Neutralino
 
-These files go with a distribution of nw.js in the same directory.
