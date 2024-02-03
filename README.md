@@ -19,10 +19,10 @@ The `dist` directory includes the following binaries for Linux, Mac and Windows:
 
 | Button| Command |
 | --- | --- |
-| GitHub | xdg-open https://github.com |
-| Web Sites | xdg-open |
+| GitHub | `xdg-open https://github.com` |
+| Web Sites | `xdg-open https://tilde.club/~woland/` |
 | Telegram | telegram-desktop |
-| Browser | xdg-open https://ddg.gg|
+| Browser | `xdg-open https://ddg.gg` |
 | Email | thunderbird |
 | Music | audacious |
 | Tasks | taskwarrior-tui |
